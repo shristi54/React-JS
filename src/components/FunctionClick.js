@@ -7,6 +7,7 @@ function FunctionClick() {
   return (
     <div>
       <button onClick={clickHandler}>Click</button>
+      {/* dont add paranthesis. shouldn't be func call clickHandler(), it should be only clickHandler  */}
     </div>
   );
 }
